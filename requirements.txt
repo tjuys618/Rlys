@@ -1,0 +1,33 @@
+torch>=2.0.0
+lightning @ git+https://github.com/Lightning-AI/lightning@master
+sentencepiece
+tqdm  # convert_checkpoint.py
+numpy  # train.py dataset memmap
+jsonargparse[signatures]  # generate.py, convert_checkpoint.py CLI
+bitsandbytes  # quantization.py
+datasets  # evaluate.py
+zstandard  # prepare_redpajama.py
+gymnasium
+highway-env
+tensorboard
+#openai>=1.1.0
+stable_baselines3
+moviepy
+rich
+#langchain>=0.0.335
+#langchain-experimental>=0.0.39
+#langchain_openai
+
+gymnasium==0.28.1
+highway-env==1.8.2
+langchain==0.0.335
+openai==0.28.1
+chromadb==0.3.29
+matplotlib==3.7.1
+numpy==1.24.3
+PyYAML==6.0
+gradio==3.36.0
+gradio_client==0.2.7
+rich
+moviepy
+tiktoken
